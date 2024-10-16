@@ -6,16 +6,30 @@
     android:orientation="vertical">
 
     <!-- Logout button in the top left corner -->
+
+    <!-- Display for the calculator -->
+
+    <Button
+        android:id="@+id/choose_category_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="589dp"
+        android:text="Choose Category" />
+
     <Button
         android:id="@+id/button_logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Logout"
-        android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:layout_margin="16dp" />
+        android:layout_alignParentTop="true"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Logout" />
 
-    <!-- Display for the calculator -->
     <TextView
         android:id="@+id/display"
         android:layout_width="match_parent"
